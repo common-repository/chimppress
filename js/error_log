@@ -1,0 +1,6 @@
+[04-Jul-2011 07:29:11] PHP Parse error:  syntax error, unexpected ';' in /home/chimp/public_html/chimppress/wp-content/plugins/ChimpPress/js/editor.php on line 182
+[04-Jul-2011 07:29:19] PHP Parse error:  syntax error, unexpected ';' in /home/chimp/public_html/chimppress/wp-content/plugins/ChimpPress/js/editor.php on line 182
+[04-Jul-2011 07:33:33] PHP Fatal error:  Call to undefined function get_post_meta() in /home/chimp/public_html/chimppress/wp-content/plugins/ChimpPress/js/editor.php on line 5
+[04-Jul-2011 07:34:10] PHP Fatal error:  Call to undefined function get_post_meta() in /home/chimp/public_html/chimppress/wp-content/plugins/ChimpPress/js/editor.php on line 5
+[04-Jul-2011 07:34:27] PHP Fatal error:  Call to undefined function get_post_meta() in /home/chimp/public_html/chimppress/wp-content/plugins/ChimpPress/js/editor.php on line 5
+[04-Jul-2011 09:29:24] PHP Fatal error:  Call to undefined function get_post_meta() in /home/chimp/public_html/chimppress/wp-content/plugins/ChimpPress/js/populate.php on line 7

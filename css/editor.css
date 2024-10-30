@@ -1,0 +1,204 @@
+#chimppresscampaigntemplate .sortable {
+    border: 1px dashed #222222;
+    margin: 0 auto;
+    height: 50px;
+}
+.item {
+    min-height: 50px;
+    position: relative;
+}
+.controls{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEEEEE;
+    opacity: 0.9;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;       
+}
+.controls:hover{
+	opacity: 1;
+}
+.control {
+    cursor: move;
+    float: right;
+    height: 16px;
+    width: 16px;
+    margin: 3px;
+    opacity: 0.5;
+}
+.control:hover{
+	opacity: 1;
+}        
+.sort {
+    background: url('../img/dragger.png') no-repeat;
+
+}
+.copy {         
+    background: url('../img/copy.png') no-repeat;        
+}
+.remove {   
+    cursor: pointer;
+    background: url('../img/delete.png') no-repeat;          
+}
+
+.placeholder {
+    height: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #eee;
+    border: 1px dashed #333333;
+}
+.campaign_editor .copy, .widgets_meta_box .remove, .widgets_meta_box .sort, .widgets_meta_box #edit_button, .widgets_meta_box #upload_image_button{
+	display:none;
+}    
+
+#loading_div{
+    background: url("../img/overlay.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+#loading_div #inner{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #DDDDDD;
+    float: left;
+    height: 50px;
+    left: 50%;
+    margin: 10% 0 0 -150px;
+    padding: 25px;
+    position: relative;
+    width: 300px;
+}
+
+.small_template{
+    float: left;
+    margin:2px  20px 2px 2px;
+    width: 200px;
+}
+
+.small_template:hover{
+	border: 2px solid #ddd;
+	margin:0px  18px 0px 0px;
+}
+
+.small_template table{
+	width: 100%;
+}
+.small_template table tr, .small_template table td{
+	border: 1px dashed #222222;
+}
+
+.small_template table td{
+	padding: 20px;
+	height:auto;
+}
+#TB_ajaxContent .campaign_editor td {
+    line-height: normal;
+}
+#saved_colors{
+
+}
+.saved_color{
+	width:20px;
+	height:20px;
+	float:left;
+	margin: 5px;
+}
+
+#chimppress_campaign_template .terms{
+	display: none;
+	float: left;
+	width: 96%;
+	background: #EEE;
+	padding: 2%;
+	margin: 5px 0 0 0;
+}
+
+#chimppress_campaign_template .template_post_type_single{
+	float: left;
+	width: 100%;
+	margin: 10px 0 0 0;
+	overflow: hidden;
+}
+
+#chimppress_campaign_template strong{
+	float: left;
+}
+
+#chimppress_campaign_template input[type="checkbox"]{
+	float: left;
+	margin: 3px 5px 5px 0px;
+}
+
+#chimppress_campaign_template .show_hide_tax{
+	float: left;
+	margin: -1px 0px 0px 4px;
+}
+
+#export_div{
+	background: lightSalmon;
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 10px;
+	color: #555;
+	margin: 10px 0;
+}
+
+#export_div h4{
+
+}
+
+#export_div textarea{
+	width: 100%;
+	height: 300px;
+	margin: 10px 0;
+}
+
+#import_div{
+	background: lightsteelblue;
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 10px;
+	color: #555;
+	margin: 10px 0;
+}
+
+#import_div h4{
+
+}
+
+#import_div textarea{
+	width: 100%;
+	height: 300px;
+	margin: 10px 0;
+}
+
+#preview_import{
+	display: none;
+}
+
+.tooltipsy{
+	padding: 10px;
+	color: white;
+	background-color: #222;
+	-moz-box-shadow: inset 0 0 10px #000;
+	-webkit-box-shadow: inset 0 0 10px black;
+	box-shadow: inset 0 0 10px black;
+	text-shadow: 0 0 3px black;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position: relative;
+}
+
+.icon32.icon32-posts-chimppress, .icon32.icon-post, #icon-edit, #icon-post{
+	background: transparent url('../img/chimppress_logo_32.png') top left no-repeat;
+}
